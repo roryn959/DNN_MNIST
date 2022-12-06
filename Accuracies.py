@@ -1,7 +1,6 @@
 import numpy as np
 
 class Accuracy:
-    
     def calculate(self, y_pred, y_true):
         comparisons = self.compare(y_pred, y_true)
         accuracy = np.mean(comparisons)
